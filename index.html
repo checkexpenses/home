@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+	<marquee direction="right" style="color: aliceblue; font-size: 20px;">Your Expenditure</marquee>
+<script>
+
+
+alert("Check Your Expenditure of the Day, Week, and Month. Thank You");
+
+function expenditure(money){
+	var moneySpendDay = money * 1;
+	var moneySpendWeek = moneySpendDay * 7;
+	var moneySpendMonth = moneySpendDay * 30;
+
+
+	document.write("Hi there, please you spend " + moneySpendDay +"Ghc" + " " + "everyday" + " , " + moneySpendWeek +"Ghc" + " " + "every week"
+	+ " " +  ", and " + moneySpendMonth +"Ghc" + " " + "every month" +". "+ "Thank you")
+}
+expenditure(prompt("How much do you spend a day?"));
+
+
+
+
+
+
+
+
+</script>
+<h1 style="font-size: 12px; color: black; ">Powered by Spartan</h1>
+
+<style>
+	body{
+		background-color: #aeccae;
+	}
+</style>
+</body>
+</html>
